@@ -7,7 +7,6 @@ peso = float(input())
 print("Informe a altura (em cm):")
 altura = float(input())  
 
-
 def calculadoraImc(peso, altura):
 
      imc = peso/(altura*altura) * 10000
